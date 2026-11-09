@@ -38,7 +38,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     alternateName: "HossieForge",
     jobTitle: "Full-Stack Developer",
     description: "Full-stack developer and founder of HossieForge, based in Nigeria.",
-    email: "mailto:akandehossanah1@gmail.com",
+    email: ["mailto:akandehossanah1@gmail.com", "mailto:akintolumoyinoluwa530@gmail.com"],
     image: `${siteUrl}/profile.png`,
     url: siteUrl,
     sameAs: [
