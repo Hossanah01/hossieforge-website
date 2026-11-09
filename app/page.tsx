@@ -72,7 +72,7 @@ export default function Home() {
         <motion.div className="portrait-stage" initial={{ opacity: 0, scale: .94 }} animate={{ opacity: 1, scale: 1 }} transition={{ duration: .8, delay: .2 }}>
           <div className="orbit orbit-one" /><div className="orbit orbit-two" />
           <div className="portrait-frame">
-            <Image src="/images/profile.png" alt="Portrait of Akande Hossanah Israel" fill priority sizes="(max-width: 800px) 80vw, 420px" className="portrait" />
+            <Image src="/profile.png" alt="Portrait of Akande Hossanah Israel" fill priority sizes="(max-width: 800px) 80vw, 420px" className="portrait" />
           </div>
           <div className="floating-tag tag-top"><Sparkles size={14} /> IDEAS → EXECUTION</div>
           <div className="floating-tag tag-bottom"><span className="status-dot" /> AVAILABLE FOR SELECT PROJECTS</div>
