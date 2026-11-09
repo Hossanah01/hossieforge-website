@@ -47,7 +47,7 @@ export default function Home() {
           {["About", "Capabilities", "Work", "Contact"].map((item) =>
             <a key={item} href={`#${item.toLowerCase()}`} onClick={closeMenu}>{item}</a>
           )}
-          <a className="nav-cta" href="mailto:akandehossanah1@gmail.com">Start a project <ArrowUpRight size={15} /></a>
+          <a className="nav-cta" href="mailto:akandehossanah1@gmail.com, akintolumoyinoluwa530@gmail.com">Start a project <ArrowUpRight size={15} /></a>
         </nav>
       </header>
 
