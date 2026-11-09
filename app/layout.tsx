@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import "./globals.css";
 
-const siteUrl = "https://hossieforge.vercel.app";
+const siteUrl = "https://hossieforge-website-yu72.vercel.app";
 
 export const metadata: Metadata = {
   metadataBase: new URL(siteUrl),
