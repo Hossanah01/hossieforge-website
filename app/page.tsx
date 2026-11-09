@@ -95,7 +95,7 @@ export default function Home() {
             <p className="lead">I fell in love with the idea that a blank screen could become something people use every day. That feeling still drives everything I build.</p>
             <p>At HossieForge, I take ideas from rough sketches and conversations to complete digital products — from the interface people see to the systems working behind it. I care about the details that make products last: speed, accessibility, responsiveness, thoughtful structure and dependable code.</p>
             <p>My approach is simple: <strong>listen first, build second.</strong> Understand the real problem, then shape a solution people enjoy using and businesses can grow with.</p>
-            <a className="text-link" href="mailto:akandehossanah1@gmail.com">Have an idea? Let&apos;s shape it <ArrowUpRight size={16} /></a>
+            <a className="text-link" href="mailto:akandehossanah1@gmail.com,akintolumoyinoluwa530@gmail.com">Have an idea? Let&apos;s shape it <ArrowUpRight size={16} /></a>
           </div>
         </div>
       </section>
@@ -143,7 +143,7 @@ export default function Home() {
           <h2>Have an idea?<br /><span className="gradient-text">Let&apos;s forge it.</span></h2>
           <p>Tell me what you&apos;re imagining. We can turn the rough idea into a real plan — and a product people love to use.</p>
           <div className="contact-actions">
-            <a className="button button-primary" href="mailto:akandehossanah1@gmail.com">Start a conversation <Mail size={17} /></a>
+            <a className="button button-primary" href="mailto:akandehossanah1@gmail.com, akintolumoyinoluwa530@gmail.com">Start a conversation <Mail size={17} /></a>
             <a className="button button-outline" href="https://wa.me/2349162041260" target="_blank" rel="noreferrer">Chat on WhatsApp <MessageCircle size={17} /></a>
           </div>
           <div className="social-row">{socials.map(({ label, href, icon: Icon }) => <a href={href} key={label} target="_blank" rel="noreferrer"><Icon size={17} /> {label} <ArrowUpRight size={12} /></a>)}</div>
@@ -153,7 +153,7 @@ export default function Home() {
       <footer className="footer section-wrap">
         <a className="brand" href="#home"><span className="brand-mark">H<span>F</span></span><span>HOSSIE<span className="accent">FORGE</span><small> DIGITAL CRAFTSMANSHIP</small></span></a>
         <span>© {new Date().getFullYear()} HossieForge · Built with intention.</span>
-        <a href="mailto:akandehossanah1@gmail.com">LET&apos;S BUILD <ArrowUpRight size={13} /></a>
+        <a href="mailto:akandehossanah1@gmail.com, akintolumoyinoluwa530@gmail.com">LET&apos;S BUILD <ArrowUpRight size={13} /></a>
       </footer>
     </main>
   );
