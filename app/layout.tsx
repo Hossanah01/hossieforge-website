@@ -19,13 +19,13 @@ export const metadata: Metadata = {
     title: "Akande Hossanah Israel | HossieForge",
     description: "Turning ideas into digital reality. Full-stack development by Akande Hossanah Israel.",
     siteName: "HossieForge",
-    images: ["/images/profile.png"]
+    images: ["/profile.png"]
   },
   twitter: {
     card: "summary_large_image",
     title: "Akande Hossanah Israel | HossieForge",
     description: "Full-Stack Developer · Founder of HossieForge",
-    images: ["/images/profile.png"]
+    images: ["/profile.png"]
   },
   robots: { index: true, follow: true }
 };
@@ -39,7 +39,7 @@ export default function RootLayout({ children }: Readonly<{ children: React.Reac
     jobTitle: "Full-Stack Developer",
     description: "Full-stack developer and founder of HossieForge, based in Nigeria.",
     email: "mailto:akandehossanah1@gmail.com",
-    image: `${siteUrl}/images/profile.png`,
+    image: `${siteUrl}/profile.png`,
     url: siteUrl,
     sameAs: [
       "https://github.com/Hossanah01",
