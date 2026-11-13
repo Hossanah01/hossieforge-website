@@ -152,7 +152,7 @@ export default function Home() {
 
       <footer className="footer section-wrap">
         <a className="brand" href="#home"><span className="brand-mark">H<span>F</span></span><span>HOSSIE<span className="accent">FORGE</span><small> DIGITAL CRAFTSMANSHIP</small></span></a>
-        <span>© {new Date().getFullYear()} HossieForge · Built with intention.</span>
+        <span>© {new Date().getFullYear()} HossieForge · All rights reserved.</span>
         <a href="mailto:akandehossanah1@gmail.com, akintolumoyinoluwa530@gmail.com">LET&apos;S BUILD <ArrowUpRight size={13} /></a>
       </footer>
     </main>
